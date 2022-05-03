@@ -1,0 +1,74 @@
+
+/* using universal selector our background color and color cahnge */
+    {
+    color: pink;
+    background-color: green;
+
+}
+
+/* same thing here using universal selecter we can change our body color to beige */
+body {
+    background-color: beige;
+
+}
+
+/*  elemet seclectore for the button by change the font-size*/
+button {
+    font-size: 30px;
+}
+
+/* this is an h1,h2 tag with the color style of crimson */
+
+h1,
+h2 {
+
+    color: crimson;
+}
+/* changing background color for the id selector for the button */
+#signup {
+
+    background-color: pink;
+    color: blue;
+}
+
+/* also changing color forthe class selector which we use the span  */
+.tag {
+    color: purple;
+}
+
+/* descendent selector */
+.post a {
+    color: purple;
+}
+
+/* here we have the footer class decendent and we changing the color */
+footer>a {
+    color: orange;
+}
+
+a[href*="google"] {
+    color: darkorange;
+}
+
+/*  how to change colors for the button when we hover it using psedo class  */
+
+button:hover {
+    background-color: red;
+    color: aqua;
+}
+
+/* same here hovering buttons to change color by using psedo class */
+.post button:active {
+    background-color: green;
+}
+
+/* also this is psedo element used to change the font sizes */
+h2::first-letter {
+
+    font-size: 50px;
+}
+
+/* same here as well using psedo element we can change the color */
+p::first-line {
+    color: green;
+}
