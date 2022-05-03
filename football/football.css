@@ -1,0 +1,26 @@
+
+.a, .e {
+    color: rgb(220, 20, 130);
+}
+.b, .h{
+    color: rgba(0, 128, 0, 0.885);
+}
+.c {
+    color:#6d6d0e;
+}.d, .f {
+    color: rgb(198, 8, 8);
+}
+.g {
+    color: #eba471;
+}
+.i {
+    color: rgb(216, 38, 44);
+}
+.y {
+    background-color: rgb(119, 190, 12);
+    color: white;
+}
+.z {
+    background-color: rgb(231, 15, 15);
+    color: white;
+}
