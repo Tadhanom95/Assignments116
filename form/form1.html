@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+      <h1>First form</h1>
+         <!-- here are textbook for username to make aform using attributes -->
+
+       <Form action="/Tade">
+              <!-- this is the label and textbox for username -->
+          <p>
+            <label for="username">Enter A name:</label>
+             <input id="username" type="text" placeholder="Tade" name="username">
+
+       </p>
+           <!-- This is the password label and textbox with attributes of a placeholder -->
+          <p>
+        <label for="password">Enter A password:</label>
+        <input id="Password" type="text" placeholder="TadePassword" name="Password">
+        </p>
+
+           <button>submit button</button>
+              </Form
+           
+            <section>
+                <!-- website by using attributs like type and name  -->
+
+                <h1>Query strings</h1>
+                <Form action="https://www.reddit.com/search?q=Kid%20Cudi&source=trending">
+
+                    <input type="text" name="q">
+                    <button>search reddit</button>
+
+                    </section>
+                </Form>
+
+                <form actio="https://www.youtube.com/results?search_query=belom+belom+new+tigrigna+music">
+
+                    <input type="text" name="q">
+                    <button>search youtube</button>
+
+                        </form>
+
+           </section>
+
+           <section>
+               <!-- here we have checkboxes and radio buttons to make a form for anything to fill out using attirubes -->
+               <h1>checkboxes and radio buttons</h1>
+
+     <form action="/birds">
+
+        <label for="agree">i agree to everthing</label>
+
+          <input type="checkbox" name="agree-tos" id="agree">
+          
+          <p>
+               <label for="s">small:</label>
+                <input type="radio" name="size" id="s" value="m">
+
+               <label for="m">medium:</label>
+               <input type="radio" name="size" id="m" value="m">
+
+
+               <label for="l">large:</label>
+               <input type="radio" name="size" id="l" value="l">
+          </p>
+
+          <!--  same thing here as well using attributes how tochoose colors on the form-->
+
+          <p>
+              <label for="colors">what is your favorite color</label>
+
+              <select name="colors" id="colors">
+                        <option value="Red">Red</option>
+                        <option value="Blue">Blue</option>
+                         <option value="Green">Green</option>
+                        
+                        </select>
+                 </p>
+                    <!-- using attributs to scroll range with max and min  -->
+                 <p>
+                    <label for="sbar">Tade scrollBar</label>
+                    <input type="range" id="sbar" min="5" max="10" name="ScrollBar">
+
+
+                 </p>
+
+                 <!-- how to make your text rows enlarge or minimize -->
+                 <p>
+                    <label for="requests">type in special requests</label>
+                    <textarea id="requests" name="textarea" rows="14" colors="14" placeholder="type here!"></textarea>
+
+                 </p>
+                 <button>Tade</button>
+                </form>
+               </section>
+
+               <hr>
+               <section>
+                    <form action="/bananas">
+                    
+                      <!-- how to blank for of textboxs to fill using attributes -->
+                      <label for="Tade">Textbox</label>
+                      <input type="text" name="textbox" id="Tade" required>
+
+                        <!-- using attribute we are making min and max length of passwords -->
+                        <label for="password"></label>
+                        <input type="text" name="pword" id="password" minlength="5" maxlength="10">
+                          <!-- how to add email using @ -->
+                           <p>
+
+                            <input type="email" required>
+                           </p>
+
+                         <button type="submit">validation button</button>
+                            </form>
+
+
+               </section>
+        </body>
+</html>
