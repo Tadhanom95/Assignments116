@@ -1,0 +1,36 @@
+/*  */
+.a, .e {
+    color:crimson
+}
+/*  */
+.b, .h {
+    color:rgb(0,100,0)
+}
+/*  */
+.c {
+    color:#FBEC5D;
+}
+/*  */
+.d, .f {
+    color: red;
+}
+/*  */
+.g {
+    color: #CC5500;
+}
+/*  */
+.i {
+    color: rgb(222,23,56);
+}
+/*  */
+#yes {
+    background-color: green;
+    color: white;
+     font-weight: bold;
+}
+/*  */
+#no{
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
