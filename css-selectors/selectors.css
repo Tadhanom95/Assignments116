@@ -1,34 +1,34 @@
-/*  */
+/* This is class selector with the color propertiy of crimson */
 .a, .e {
     color:crimson
 }
-/*  */
+/* Same here class selector with color property of greenish */
 .b, .h {
     color:rgb(0,100,0)
 }
-/*  */
+/* Here is also we have c with the color of yellowish */
 .c {
     color:#FBEC5D;
 }
-/*  */
+/* This is d and f, class selectors with the color of Red */
 .d, .f {
     color: red;
 }
-/*  */
+/*  Same here we have g, class selector with the color property of burnt orange*/
 .g {
     color: #CC5500;
 }
-/*  */
+/* Here we have i,with color of big red */
 .i {
     color: rgb(222,23,56);
 }
-/*  */
+/* Here we have yes an id selector with the color property of green,white */
 #yes {
     background-color: green;
     color: white;
      font-weight: bold;
 }
-/*  */
+/* Same here we have an od selector with color red  */
 #no{
     background-color: red;
     color: white;
