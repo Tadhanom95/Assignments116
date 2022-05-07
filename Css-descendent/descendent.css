@@ -1,5 +1,5 @@
 /* Here we have h1 descendent with the color property of crimson */
-h1 > a {
+header > a {
        color:crimson;
        font-size: 30px;
 }
