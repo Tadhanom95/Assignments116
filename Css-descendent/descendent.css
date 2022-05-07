@@ -1,0 +1,10 @@
+/* Here we have h1 descendent with the color property of crimson */
+h1 > a {
+       color:crimson;
+       font-size: 30px;
+}
+/* Here we have id selector Descendent with the color property of yellow */
+#schools >a {
+      color:#e4e411;
+      
+} 
