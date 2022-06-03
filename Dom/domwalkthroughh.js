@@ -103,17 +103,17 @@
 var header = document.querySelector('#main-header');//
 
 header.style.borderBottom = 'solid 4px red';//Changing the attribute with the with the bottom border color red
- var input = document.querySelector('input');//creating of the variable input on the element
- input.value = "Changed The Input Box Text";//Changing the input value to Changed the input box text
+var input = document.querySelector('input');//creating of the variable input on the element
+input.value = "Changed The Input Box Text";//Changing the input value to Changed the input box text
 
- var submit = document.querySelector("input[type='submit']");//Using query selector for the input element and provided an attribute selector type for the document
+var submit = document.querySelector("input[type='submit']");//Using query selector for the input element and provided an attribute selector type for the document
 
 submit.value = "SEND"; //created variable and changed the value attribute of the button
 
 
-var item = document.querySelector('.list-group-item');//Here we creating the variable and list the last child
-
-item.style.color = 'red';//changing style color of the item
- 
-var lastItem = document.querySelector('.list-group-item:last-child');//Calling the last item variable using class reference
-lastItem.style.color = 'coral';//Calling last item to cahnge style color to coral
+// 
+var item = document.querySelector('.list-group-item');
+item.style.color = 'Green';
+//
+var lastItem = document.querySelector('.list-group-item:last-child');
+lastItem.style.color = 'purple';
