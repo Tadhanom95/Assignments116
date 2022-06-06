@@ -11,7 +11,7 @@
 // document.all[10].textContent='We just Changed The Header';//manipulate javscript using document attribute to change the header
 // console.log(document.forms);//shows how many particulars forms we have 
 // console.log(document.links);// Here also we checking if we have links in the document
-// console.log(document.image);// Checking if we have immages in the document sam as links
+// console.log(document.images);// Checking if we have immages in the document sam as links
 // // ///////////////////////////////////////////////
 
 // Access the Dom With GETELEMENTBYID
@@ -69,7 +69,7 @@
 // for (let i=100; i>=0; i -=2){
 //     console.log(i);
 // }
-// //
+// 
 // for (var i=0; i<items.length; i++){
 //     items[i].style.backgroundColor = 'grey';
 //     items[i].textContent = 'I Changed The List';
@@ -87,33 +87,57 @@
 // var li = document.getElementsByTagName('li');
 // console.log(li);
 // console.log(li[1]);
-// //
+// 
 // li[1].textContent = "Hello 2";
 // li[1].style.fontWeight = 'bold';
 // li[1].style.backgroundColor = 'Crimson';
 // li[1].style.color = 'white';
-// //
+// 
 // for(var i = 0; i < li.length; i++){
 //     li[i].style.backgroundColor = 'lightgrey';
 //     li[i].style.textContent = 'Changed Text';
-// }
+ //}
 ////////////////////////////////
 ///////////////////////-Query Selector
 
-var header = document.querySelector('#main-header');//
+// var header = document.querySelector('#main-header');//
 
-header.style.borderBottom = 'solid 4px red';//Changing the attribute with the with the bottom border color red
-var input = document.querySelector('input');//creating of the variable input on the element
-input.value = "Changed The Input Box Text";//Changing the input value to Changed the input box text
+// header.style.borderBottom = 'solid 4px red';//Changing the attribute with the with the bottom border color red
 
-var submit = document.querySelector("input[type='submit']");//Using query selector for the input element and provided an attribute selector type for the document
+// var input = document.querySelector('input');//creating of the variable input on the element
 
-submit.value = "SEND"; //created variable and changed the value attribute of the button
+// input.value = "Changed The Input Box Text";//Changing the input value to Changed the input box text
+
+// var submit = document.querySelector("input[type='submit']");//Using query selector for the input element and provided an attribute selector type for the document
+
+// submit.value = "SEND"; //created variable and changed the value attribute of the button frpm submit to send
 
 
-// 
-var item = document.querySelector('.list-group-item');
-item.style.color = 'Green';
-//
-var lastItem = document.querySelector('.list-group-item:last-child');
-lastItem.style.color = 'purple';
+// //coloring the list item on 1
+// var item = document.querySelector('.list-group-item');
+// item.style.color = 'white';
+// item.style.backgroundColor ='Green';
+//  //stylying colors to the last item 
+// var lastItem = document.querySelector('.list-group-item:last-child');
+// lastItem.style.color = 'white';
+// lastItem.style.backgroundColor = 'Green';
+
+///////////////////////////////////
+////////-QuerySelectorAll
+//we definining all the titles we have in our html 
+
+// var titles = document.querySelectorAll('.title');
+// console.log(titles);
+// //Changing the title to hello tade
+// titles[0].textContent = 'Hello Tade';
+// // declering all odd numbers to be list
+// var odd = document.querySelectorAll('li:nth-child(odd)');
+// var even = document.querySelectorAll('li:nth-child(even)');
+// // Setting colors to my list item group using nth selector
+// for (var i=0; i< odd.length; i++) {
+//     odd[i].style.backgroundColor = 'grey';
+//     even[i].style.backgroundColor = 'green';
+//     even[i].style.color = 'yellow';
+
+//  }
+ 
