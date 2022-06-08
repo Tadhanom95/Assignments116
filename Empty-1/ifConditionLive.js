@@ -1,10 +1,10 @@
- //
- console.log("About to code Tade!");
-//Defining the logic to get any math random number
- let randomNumber = Math.random();
+//  //
+//  console.log("About to code Tade!");
+// //Defining the logic to get any math random number
+//  let randomNumber = Math.random();
 
- console.log(randomNumber);
-// //
+//  console.log(randomNumber);
+// // //
 //  if (randomNumber < 0.5) {
 //      console.log("we coding");
 //      console.log(randomNumber);
@@ -39,3 +39,58 @@
 //  } else if (age >- 16){
 //      console.assertlog("You are able to drive");
 // }
+// // Case switch statement using switch and case statement
+// const expr = 'Papayeas';
+
+// switch(expr) {
+//   case 'Oranges':
+//        console.log("Oranges are $0,8 a pound");
+//        break;
+//   case 'Mangoes':
+//       console.log("Sweet Mangos");
+//       break;
+//   case 'Papayas':
+//       console.log("Tasty papayas");
+//       break;
+//       // if the switch logic does not meet the expectation it will go to the result we gave as a default
+//   default:
+//       console.log("Sorry, we are out of the item you asked.");
+// }
+
+// //using if statement to get result based on the password length
+// const password = prompt("Enter A New Password");
+
+//  if (password.length >= 6) {
+
+//       //Nested Condition
+//   if (password.indexOf(' ') === -1) {
+//            console.log("Valid Password")
+      
+//   }else {
+//         console.log("Password cannot have spaces")
+//       }
+//  }else {
+//    console.log("Password is too short")
+//  }
+
+// using function statement working song to have the console result
+function singSong() {
+     console.log("DO");
+     console.log("RE");
+     console.log("MI");
+}
+singSong()
+singSong()
+singSong()
+// same here using fuction statement to declare first name which is "Tade"
+function greet(firstName) {
+  console.log(`Hey there,${firstName}`)
+}
+
+greet('Tade')
+// This one gonna show us both first name and last name 
+function greet1(firstName,lastName) {
+  console.log(`Hey there,${firstName} ${lastName}`)
+
+}
+greet1('Coding','Working')
