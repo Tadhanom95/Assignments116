@@ -73,23 +73,23 @@
 //    console.log("Password is too short")
 //  }
 
-// using function statement working song to have the console result
-function singSong() {
-     console.log("DO");
-     console.log("RE");
-     console.log("MI");
-}
-singSong()
-singSong()
-singSong()
-// same here using fuction statement to declare first name which is "Tade"
-function greet(firstName) {
-  console.log(`Hey there,${firstName}`)
-}
-greet('Tade')
-// This one gonna show us both first name and last name  usinf function statement
-function greet1(firstName,lastName) {
-  console.log(`Hey there,${firstName} ${lastName}`)
+// // using function statement working song to have the console result
+// function singSong() {
+//      console.log("DO");
+//      console.log("RE");
+//      console.log("MI");
+// }
+// singSong()
+// singSong()
+// singSong()
+// // same here using fuction statement to declare first name which is "Tade"
+// function greet(firstName) {
+//   console.log(`Hey there,${firstName}`)
+// }
+// greet('Tade')
+// // This one gonna show us both first name and last name  usinf function statement
+// function greet1(firstName,lastName) {
+//   console.log(`Hey there,${firstName} ${lastName}`)
 
-}
-greet1('Coding','Working')
+// }
+// greet1('Coding','Working')
