@@ -4,12 +4,12 @@
 //  let randomNumber = Math.random();
 
 //  console.log(randomNumber);
-// // //
+// // //using if condition for any random number is less than .5 we get a result "we coding"
 //  if (randomNumber < 0.5) {
 //      console.log("we coding");
 //      console.log(randomNumber);
 //  }
-//  //
+//  // using if condition if any random number number greater thann or equal .5 we will get "random number is ..."
 //  if (randomNumber >= 0.5) {
 //      console.log('Random Number is greater than 0.5');
 //      console.log(randomNumber);
@@ -57,7 +57,7 @@
 //       console.log("Sorry, we are out of the item you asked.");
 // }
 
-// //using if statement to get result based on the password length
+// //using if statement to get result based on the password length if the logic meet else we get differeret logic
 // const password = prompt("Enter A New Password");
 
 //  if (password.length >= 6) {
@@ -86,9 +86,8 @@ singSong()
 function greet(firstName) {
   console.log(`Hey there,${firstName}`)
 }
-
 greet('Tade')
-// This one gonna show us both first name and last name 
+// This one gonna show us both first name and last name  usinf function statement
 function greet1(firstName,lastName) {
   console.log(`Hey there,${firstName} ${lastName}`)
 
