@@ -2,13 +2,13 @@
 
 // console.log(document.domain);//<-- shows IP adress-->
 // console.log(document.URL);//Shows The URL on console
-// console.log(document.title);//It going to show us the title of the document
-// console.log(document.doctype);//shows the doctype of the document
+// console.log(document.title);//It going to show us the everything under title of the document
+// console.log(document.doctype);//shows the all under doctype of the document
 // console.log(document.head);//showing head of the document on the console
 // console.log(document.body);//showing everything listed in the body
 // console.log(document.all);//shows every tree structure in the document
 // console.log(document.all[10]);//calling line 10 inside the document
-// document.all[10].textContent='We just Changed The Header';//manipulate javscript using document attribute to change the header
+// document.all[10].textContent='We just Changed The Header';//manipulate javscript using document attribute to change the header on line 10
 // console.log(document.forms);//shows how many particulars forms we have 
 // console.log(document.links);// Here also we checking if we have links in the document
 // console.log(document.images);// Checking if we have immages in the document sam as links
@@ -83,15 +83,40 @@
 
 //////////////////////////////////////
 //GetElementByTagName///////
-
+// // using get elemnt by tag name styling every list item and changing the text content 
 // var li = document.getElementsByTagName('li');
 // console.log(li);
 // console.log(li[1]);
-// 
+
+// li[0].textContent = "Tigray Tigray";
+// li[0].style.fontWeight = 'bold';
+// li[0].style.backgroundColor = 'Crimson';
+// li[0].style.color = 'Blue';
+
 // li[1].textContent = "Hello 2";
 // li[1].style.fontWeight = 'bold';
-// li[1].style.backgroundColor = 'Crimson';
+// li[1].style.backgroundColor = 'black';
 // li[1].style.color = 'white';
+
+// li[2].textContent = "Adey Adey";
+// li[2].style.fontWeight = 'bold';
+// li[2].style.backgroundColor = 'yellow';
+// li[2].style.color = 'red';
+
+// li[3].textContent = "Mekelle";
+// li[3].style.fontWeight = 'bold';
+// li[3].style.backgroundColor = 'Green';
+// li[3].style.color = 'Black';
+
+// li[4].textContent = "Quiha";
+// li[4].style.fontWeight = 'bold';
+// li[4].style.backgroundColor = 'blue';
+// li[4].style.color = 'white';
+
+// li[5].textContent = "Nayna";
+// li[5].style.fontWeight = 'bold';
+// li[5].style.backgroundColor = 'purple';
+// li[5].style.color = 'white';
 // 
 // for(var i = 0; i < li.length; i++){
 //     li[i].style.backgroundColor = 'lightgrey';
